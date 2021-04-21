@@ -1,4 +1,5 @@
-from .extractor import Extractor
+from .loader import txtfiles2pylist
+from .persian_pre_processing import TripleP
 from os.path import join, dirname
 
 BASE_DIR = dirname(__file__)
@@ -10,3 +11,5 @@ with open(join(RESOURCES_URL, STOPWORDS_FILE_NAME), 'r', encoding='utf-8') as fi
 
     tmp = file.read()
     STOPWORDS = loads(tmp)
+
+from .extractor import Stopwords, Keywords

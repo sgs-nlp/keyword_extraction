@@ -1,6 +1,10 @@
+hazm==0.7.0
 joblib==1.0.1
+libwapiti==0.2.1
+nltk==3.3
 numpy==1.20.2
 scikit-learn==0.24.1
 scipy==1.6.2
+six==1.15.0
 sklearn==0.0
 threadpoolctl==2.1.0
